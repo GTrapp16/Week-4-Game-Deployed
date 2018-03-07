@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Ocarina Of jQuery
+    </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="rowtitle">
+            <h1>The Ocarina of jQuery</h1>
+        </div>
+        <div class="rowinstructions">
+            <div id="instructions">
+                <h2>
+                    <p>Select either the <span class="emerald">Kokiri Emerald</span>, <span class="ruby">Goron's Ruby</span>, <span class="sapphire">Zora's Sapphire</span>, or the <span class="oca">Ocarina.</span></p>
+                    <p>By clicking on each symbol you will add a specific amount of points to your total.
+                    </p>
+                    <p>
+                        You <span class="zelda">win the game</span> by matching your total score to the target score.</p>
+                    <p> If you go over the target score the princess <span class="zelda">Zelda</span> dies and it is all your fault.
+                    </p>
+                    <p>
+                        The value of each symbol will be added to your total score.
+                    </p>
+                    <p>
+                        The hidden values will be reassigned for each symbol every game.
+                    </p>
+                </h2>
+            </div>
+        </div>
+
+        <div class="crystalsrow">
+            <div class="col-sm-12">
+                <img src="./assets/images/Kokiri's_Emerald.png" class="button" id="kokiri">
+                <img src="./assets/images/Goron's_Ruby.png" class="button" id="goron">
+                <img src="./assets/images/Zora's_Sapphire.png" class="button" id="zora">
+                <img src="./assets/images/Ocarina.png" class="button" id="ocarina">
+            </div>
+        </div>
+
+        <div class="inforow">
+            <h2>
+                <div class="col-lg-4">
+                    <div class="target-score">
+                        <p>Target Score: </p>
+                    </div>
+                    <div class="total"></div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="winsLosses">
+
+                        <p>Wins: </p>
+                        <div id="wins"></div>
+                        <p>Losses: </p>
+                        <div id="losses"></div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="score">
+                        <p>Total Score:</p>
+                    </div>
+                    <div class="addition"></div>
+
+                </div>
+        </div>
+        </h2>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

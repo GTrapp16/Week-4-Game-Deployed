@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.rowtitle {
+    color: orangered;
+    font-size: 40;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    color: whitesmoke;
+}
+
+#total {
+    font-size: 24;
+}
+
+.score {
+    color: red;
+}
+
+.winsLosses {
+    color: whitesmoke;
+}
+
+.target-score {
+    color: red;
+}
+
+.emerald {
+    color: greenyellow;
+}
+.ruby{
+    color: red;
+}
+
+.sapphire {
+    color: blue;
+}
+
+.oca {
+    color: powderblue;
+}
+.zelda {
+    color:gold;
+}
